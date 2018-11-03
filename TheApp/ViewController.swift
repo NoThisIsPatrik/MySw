@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ihp: UILabel!
     var tg:Bool=false,em:String = "";
     
-    @IBAction func butt(_ sender: Any) {
+    @IBAction func butt(sender: Any) {
         let alt = "I LOVE PRINCESS"
 
         self.tg = !self.tg;
